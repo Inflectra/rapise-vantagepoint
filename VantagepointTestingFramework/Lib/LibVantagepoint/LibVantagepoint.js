@@ -171,14 +171,14 @@ function VpReport_Save(/**string*/ fileName)
 			{
 				if (prevCellIsText)
 				{
-					line = line + "    ";
+					line = line + "\t";
 				}
 				line = line + foundCell.GetText();
 				prevCellIsText = true;
 			}
 			else
 			{
-				line = line + "    ";
+				line = line + "\t";
 				prevCellIsText = false;
 			}
 		}
