@@ -1,0 +1,24 @@
+{
+	"VpReport": {
+		"window_name": "Global Objects",
+		"flavor": "GlobalObject",
+		"actions": [
+			{
+				"name": "GetValue",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ anchor, /**number*/ index, /**number*/ colOffset, /**number*/ rowOffset",
+				"paramInfo": {}
+			},
+			{
+				"name": "Save",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ fileName",
+				"paramInfo": {}
+			}
+		]
+	}
+}
